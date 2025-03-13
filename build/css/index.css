@@ -1,0 +1,55 @@
+.background{
+    background: linear-gradient(to right,gray,dimgray,black);
+}
+.active{
+    border-bottom: 3px solid white;
+    background-color: gray !important;
+}
+.card-title{
+   font-size: 1rem;
+   height: 90px;
+}
+.source-data{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+.source-data p{
+    font-size: 0.8rem;
+}
+.card-text{
+    font-size: 0.9rem;
+    height: 230px;
+}
+
+@media only screen and (min-width:0) and (max-width:575px){
+    .card-title{
+        height: 40px;
+     }
+     .card-text{
+        
+        height: 80px;
+    }
+    
+}
+
+@media only screen and (min-width:576) and (max-width:767px){
+    .card-title{
+        height: 60px;
+     }
+     .card-text{
+        
+        height: 150px;
+    }
+    
+}
+@media only screen and (min-width:768) and (max-width:1991px){
+    .card-title{
+        height: 90px;
+     }
+     .card-text{
+        
+        height: 190px;
+    }
+    
+}
